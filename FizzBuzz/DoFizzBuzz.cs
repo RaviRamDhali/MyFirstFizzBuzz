@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FixxBuzz
+namespace FizzBuzz
 {
     public class DoFizzBuzz
     {
@@ -30,6 +30,7 @@ namespace FixxBuzz
 
             return results;
         }
+
 
         public string GetPrintableString(long inputvalue)
         {

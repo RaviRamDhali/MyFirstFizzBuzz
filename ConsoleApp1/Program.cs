@@ -1,4 +1,5 @@
 ﻿using System;
+using FizzBuzz;
 
 namespace ConsoleApp1
 {
@@ -8,8 +9,8 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
 
-            //2147483647
-            var proc = new FixxBuzz.DoFizzBuzz(200000, "fizz","buzz");
+            ////2147483647
+            var proc = new DoFizzBuzz(214747, "fizz","buzz");
             var myList = proc.Exec();
 
 
@@ -19,5 +20,6 @@ namespace ConsoleApp1
             }
             
         }
+
     }
 }
